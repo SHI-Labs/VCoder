@@ -1,6 +1,6 @@
 # ✌️ VCoder: Versatile Vision Encoders for Multimodal Large Language Models
 
-[![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/) [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/go493IGgVWo)
+[![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/) [![HuggingFace space](https://img.shields.io/badge/🤗-HuggingFace%20Space-cyan.svg)](https://huggingface.co/spaces/shi-labs/VCoder) [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/go493IGgVWo)
 
 [Jitesh Jain](https://praeclarumjj3.github.io/), [Jianwei Yang](https://jwyang.github.io/), [Humphrey Shi](https://www.humphreyshi.com/home)
 
@@ -27,6 +27,7 @@ This repo contains the code for our paper **VCoder: Versatile Vision Encoders fo
 
 ## News
 
+- **[December 29, 2023]**: Our demo is now available on [HuggingFace Spaces](https://huggingface.co/spaces/shi-labs/VCoder). Thanks to the HF team for their support! 🤗
 - **[December 21, 2023]**: [**Project Page**](https://praeclarumjj3.github.io/vcoder/), [**Dataset**](https://huggingface.co/datasets/shi-labs/COST), [**ArXiv Preprint**](https://arxiv.org/abs/2312.14233) and [**GitHub Repo**](https://github.com/SHI-Labs/VCoder) are public! 🚀
   - 🎯 VCoder is an adapter for improving MLLMs at object-level perception tasks with the aid of auxiliary perception modalities as control inputs.
   - 🎁 We also release the [COST](https://huggingface.co/datasets/shi-labs/COST) dataset to train and evaluate MLLMs at object-level perception tasks!
@@ -65,6 +66,8 @@ We use Python 3.10 and PyTorch 2.0.1 (CUDA 11.7 build) on Ubuntu 20.04.3 LTS.
     ```
 
 ## Demo
+
+[![HuggingFace space](https://img.shields.io/badge/🤗-HuggingFace%20Space-cyan.svg)](https://huggingface.co/spaces/shi-labs/VCoder)
 
 You can use one of the CLI or Gradio interface to interact with VCoder LLaVA-1.5 locally.
 
