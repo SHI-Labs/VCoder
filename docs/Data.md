@@ -38,7 +38,7 @@ playground/data
 <img src="../images/VCoder-COST.svg" width="80%" class="center"/>
 </p>
 
-We use our COCO Segmentation Text (**[COST](https://huggingface.co/datasets/shi-labs/COST)**) dataset to improve VCoder's performance at predicting objects, their counts and depth order in a given image. It also contains segmentation maps (obtained from [OneFormer](https://github.com/SHI-Labs/OneFormer)) and depth maps (obtained from [DINOv2 DPT](https://github.com/facebookresearch/dinov2)) corresponding to all images. For more informtation, please see [COST.md](COST.md).
+We use our COCO Segmentation Text (**[COST](https://huggingface.co/datasets/shi-labs/COST)**) dataset to improve VCoder's performance at predicting objects, their counts and depth order in a given image. It also contains segmentation maps (obtained from [OneFormer](https://github.com/SHI-Labs/OneFormer)) and depth maps (obtained from [DINOv2 DPT](https://github.com/facebookresearch/dinov2)) corresponding to all images. For more information, please see [COST.md](COST.md).
 
 - Download and unzip COCO images:
 
