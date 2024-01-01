@@ -121,8 +121,8 @@ class Chat:
         stop_str = params.get("stop", None)
         do_sample = True if temperature > 0.001 else False
 
-        if self.is_seg:
-            if self.is_depth:
+        if self.is_seg and segs is not None:
+            if self.is_depth and depths is not None:
                 input_ids = tokenizer_depth_seg_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, SEG_TOKEN_INDEX, DEPTH_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).to(self.device)
             else:
                 input_ids = tokenizer_seg_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, SEG_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).to(self.device)
