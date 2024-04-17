@@ -14,13 +14,11 @@ for IDX in $(seq 0 $((CHUNKS-1))); do
         --model-path liuhaotian/$CKPT \
         --question-file ./playground/data/eval/gqa/$SPLIT.jsonl \
         --image-folder ./playground/data/eval/gqa/data/images \
-        --seg-image-folder ./playground/data/eval/gqa/data/seg_images \
         --answers-file ./playground/data/eval/gqa/answers/$SPLIT/$CKPT/${CHUNKS}_${IDX}.jsonl \
         --num-chunks $CHUNKS \
         --chunk-idx $IDX \
         --temperature 0 \
-        --conv-mode vicuna_v1 \
-        --use_seg &
+        --conv-mode vicuna_v1 &
 done
 
 wait
